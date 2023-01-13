@@ -1,0 +1,9 @@
+while true do
+wait(1)
+local args = {
+    [1] = "Obby"
+}
+
+game:GetService("ReplicatedStorage").Packages.Knit.Services.GameModeService.RF.Travel:InvokeServer(unpack(args))
+
+end
